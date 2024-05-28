@@ -1,0 +1,94 @@
+.container1 {
+  background-image: url("https://images.pexels.com/photos/3752745/pexels-photo-3752745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 30px;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  color: #191094;
+  
+  font-size: 50px; /* Increase font size for header */
+  margin-bottom: 20px; /* Add spacing below header */
+}
+
+.label {
+  color: #100f0f;
+  font-size: 18px; /* Decrease font size for labels */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.select,
+.input,
+.input1,
+.input3 {
+  background-color: #040404;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px; /* Increase padding for inputs */
+  margin: 10px auto;
+  width: 50%;
+  max-width: 400px; /* Set max-width for better responsiveness */
+  font-size: 16px; /* Adjust font size */
+}
+
+.button1,
+.button2,
+.button3 {
+  padding: 12px 24px; /* Increase padding for buttons */
+  background-color: #020303;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Increase font size for buttons */
+  font-weight: bold;
+  margin: 10px;
+}
+
+.label1 {
+  background-color: #f5f5f5;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 15px; /* Increase padding */
+  border-radius: 5px;
+}
+
+.label2 {
+  color: #f5f5f5;
+  font-size: 18px; /* Increase font size */
+  margin-bottom: 20px; /* Add spacing below label */
+}
+
+.generated-pdf {
+  margin-top: 30px; /* Increase margin */
+}
+
+.generated-pdf-heading {
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 15px; /* Add spacing below heading */
+}
+
+.download-pdf-button {
+  padding: 12px 24px; /* Increase padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px; /* Increase margin */
+}
+
+.download-pdf-button:hover {
+  background-color: #0056b3;
+}
